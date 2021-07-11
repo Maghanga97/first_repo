@@ -1,0 +1,3 @@
+def unique_id= 001
+def ref_no= "REF/"+date()+"/"+ unique_id
+ 
