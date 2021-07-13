@@ -5,14 +5,10 @@ attachment= "REF"
 userid = input("Enter username:")
 print("Username is: " + userid)
 int_user= int(userid)
+#d=7
 n= 1
-if n < int_user:
+while n < int_user:
   b= str(n) 
-  print(type(b))
-  
-else:
-  print("Finally finished!")
+  print(attachment+"/"+x.strftime("%G")+"/"+b)
+  n +=1
 
-
-print(x.strftime("%G"))
- 
